@@ -7,7 +7,7 @@ const downloadButton = document.getElementById('downloadBtn');
 downloadButton.addEventListener('click', () => {
     // Define the name of the file to be downloaded.
     const fileName = 'Krishnaraj_Singh_Bais_New_CV.pdf';
-    const filePath = './pdf/' + fileName; // Assuming the file is in the same directory
+    const filePath = './' + fileName; // Assuming the file is in the same directory
 
     // Create a temporary anchor (<a>) element to trigger the download
     const link = document.createElement('a');
