@@ -6,7 +6,7 @@ const downloadButton = document.getElementById('downloadBtn');
 // Add a click event listener to the button
 downloadButton.addEventListener('click', () => {
     // Define the name of the file to be downloaded.
-    const fileName = 'Krishnaraj_Singh_Bais_New_CV (4)';
+    const fileName = 'Krishnaraj_Singh_Bais_New_CV.pdf';
     const filePath = './' + fileName; // Assuming the file is in the same directory
 
     // Create a temporary anchor (<a>) element to trigger the download
